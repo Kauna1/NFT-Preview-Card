@@ -1,0 +1,111 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+
+/* margins */
+.m-23 {
+  margin: 23px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.ml-2 {
+  margin-left: 2px;
+}
+
+/* display */
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.box-wrapper {
+  margin: auto;
+  margin-top: 50px;
+  height: 500px;
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 0px 30px 5px 12px #03141d;
+  border-radius: 20px;
+}
+
+.box-image {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  top: 20px;
+  right: 15px;
+}
+
+.box-image:hover {
+  color: rgb(0, 255, 247);
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.box-caption {
+  color: hsl(215, 51%, 70%);
+}
+
+h3 {
+  color: hsl(0, 0%, 100%);
+}
+
+h3:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.box-text {
+  margin-top: -10px;
+}
+
+.et-value {
+  color: hsl(178, 100%, 50%);
+}
+
+hr {
+  color: hsl(215, 32%, 27%);
+  opacity: 0.1;
+}
+.box-avatar-container {
+  gap: 1rem;
+}
+
+.box-avatar {
+  height: 30px;
+  width: 30px;
+  border: solid 1px #ffffff;
+  border-radius: 100%;
+}
+
+.box-avatar-text {
+  position: relative;
+  top: -10px;
+}
+
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+.white:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.attribution {
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
